@@ -1,0 +1,52 @@
+$primary-color: #ed2f2f;
+$secondaty-color: rgb(78, 34, 238);
+
+hrml {
+  font-family: "Times New Roman", Times, serif;
+}
+
+* {
+  color: #58ed2f;
+}
+
+h1 {
+  color: #c4ed2f;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: $secondaty-color;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a {
+  color: $primary-color;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+.contact {
+  display: flex;
+  &_type {
+    min-width: 90px;
+  }
+}
+
+.education {
+  display: flex;
+  margin-bottom: 2em;
+  &_date {
+    min-width: 185px;
+    margin-bottom: 1em;
+  }
+  &_name {
+    font-weight: bold;
+  }
+}
+
+h3 {
+  color: $primary-color;
+}
